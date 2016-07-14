@@ -1,0 +1,11 @@
+//Program to find square root and cube root of the given number
+package session3;
+public class Assignment1 {
+	public static void main(String[] args) {
+		int sqrtNumber=16,cbrtNumber=27;
+		
+		System.out.println("Square root of "+a+ " is "+Math.sqrt(sqrtNumber));
+		System.out.println("Cube root of "+b+ " is "+Math.cbrt(cbrtNumber));
+	
+	}
+}
