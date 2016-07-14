@@ -1,0 +1,40 @@
+package session3;
+
+class PrimeCheck
+{
+	int number;
+	public void setNumber(int value) {
+		this.number = value;
+	}
+	public int getNumber() {
+		return number;
+	}
+	public boolean isPrime(int b)
+	{
+		int count = 0;
+		for(int i=1;i<=b;i++)
+		{
+			if(number%i == 0)
+			{
+				count++;
+			}
+		}
+		if (count == 2)
+			return true;
+		else 
+			return false;
+	}
+}
+public class Assignment2 {
+	public static void main(String args[])
+	{
+		boolean checking;
+		PrimeCheck p = new PrimeCheck();
+		p.setNumber(17);
+		checking = p.isPrime(p.getNumber());
+		if(checking)
+			System.out.println("The number is prime");
+		else
+			System.out.println("The number is composite");
+	}
+}
