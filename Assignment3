@@ -1,0 +1,12 @@
+import java.util.Random;
+public class RandomNumber {
+
+	Random random = new Random();
+	public static void main(String[] args) {
+	
+		int randomNumber = 20;
+		Random random = new Random();
+		System.out.println("The randome number is "+random.nextInt(randomNumber));
+	}
+
+}
