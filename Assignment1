@@ -11,6 +11,7 @@ public class Assignment1 {
 		
 		System.out.println("Square root of "+a+ " is "+Math.sqrt(a));
 		System.out.println("Cube root of "+b+ " is "+Math.cbrt(b));
+		input.close();
 	
 	}
 }
