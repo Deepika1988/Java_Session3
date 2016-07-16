@@ -1,11 +1,16 @@
 //Program to find square root and cube root of the given number
 package session3;
+import java.util.Scanner;
 public class Assignment1 {
 	public static void main(String[] args) {
-		int sqrtNumber=16,cbrtNumber=27;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number for which you want to find the square root");
+		int a = input.nextInt();
+		System.out.println("Enter the number for which you want to find the cube root");
+		int b = input.nextInt();
 		
-		System.out.println("Square root of "+a+ " is "+Math.sqrt(sqrtNumber));
-		System.out.println("Cube root of "+b+ " is "+Math.cbrt(cbrtNumber));
+		System.out.println("Square root of "+a+ " is "+Math.sqrt(a));
+		System.out.println("Cube root of "+b+ " is "+Math.cbrt(b));
 	
 	}
 }
